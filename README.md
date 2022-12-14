@@ -1,6 +1,7 @@
 <h1>My .config Files</h1>
 
-put files in "~/.config"
+<p>put files in "~/.config"</p>
 
-Install(so far):
-  mangohud
+<p>Install(so far):</p>
+<p>   mangohud</p>
+
