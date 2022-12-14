@@ -3,5 +3,5 @@
 <p>put files in "~/.config"</p>
 
 <p>Install(so far):</p>
-<p>   mangohud</p>
+<p>mangohud</p>
 
