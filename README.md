@@ -1,3 +1,6 @@
 <h1>My .config Files</h1>
 
-<p>put files in "~/.config"</p>
+put files in "~/.config"
+
+Install(so far):
+  mangohud
