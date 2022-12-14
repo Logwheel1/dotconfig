@@ -3,5 +3,5 @@
 <p>put files in "~/.config"</p>
 
 <p>Apps that use configs here:</p>
-<p>mangohud</p>
+<p>1. mangohud</p>
 
