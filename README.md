@@ -2,6 +2,6 @@
 
 <p>put files in "~/.config"</p>
 
-<p>Install(so far):</p>
+<p>Apps that use configs here:</p>
 <p>mangohud</p>
 
