@@ -16,6 +16,9 @@
 <p>13. lxappearance</p>
 <p>14. firefox</p>
 <p>15. cmatrix</p>
+<p>16. libre office</p>
+<p>17. vscode</p>
 <p>Command for debian:</p>
-<p>sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit thunar rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix</p>
+<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit thunar rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice"</p>
+<p>(vscode not included in this command)</p>
 
