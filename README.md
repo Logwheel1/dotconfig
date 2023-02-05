@@ -4,4 +4,5 @@
 
 <p>Apps that use configs here:</p>
 <p>1. mangohud</p>
+<p>2. polybar</p>
 
