@@ -1,0 +1,326 @@
+;==========================================================
+;
+; THIS IS AN EXAMPLE CONFIGURATION FILE!
+; IT IS NOT SUPPOSED TO WORK OUT OF THE BOX SINCE IS CONTAINS
+; SETTINGS THAT ARE SPECIFIC TO THE MACHINE WHICH WAS USED
+; TO GENERATE IT.
+; Please refer to the web documentation hosted at:
+; https://github.com/polybar/polybar#configuration
+; and
+; https://github.com/polybar/polybar/wiki/Configuration
+; if you want to automatically generate one for you.
+;
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+
+
+
+; ------ COLORS ------
+
+
+
+
+[colors]
+;background = ${xrdb:color0:#222}
+background = #1d2021
+background-alt = #504945
+;foreground = ${xrdb:color7:#222}
+foreground = #fbf1c7
+foreground-alt = #fbf1c7
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
+
+
+
+
+; ------ BAR1 ------
+
+
+
+
+[bar/bar1]
+;monitor = ${env:MONITOR:HDMI-1}
+;width = 98%
+height = 40
+;offset-x = 1%
+;offset-y = 1%
+radius = 0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-size = 0
+;border-color = #8ec07c
+
+padding-left = 2
+padding-right = 2
+module-margin-left = 0
+module-margin-right = 2
+
+; ---- FONTS ----
+
+font-0 = CaskaydiaCove Nerd Font Mono:style=Regular
+font-1 = Linux Libertine O:style=Regular
+font-2 = Font Awesome 6 Free Regular:style=Regular
+font-3 = Font Awesome 6 Brands Regular:style=Regular
+font-4 = Font Awesome 6 Free Solid:style=Solid
+
+; ---- MODULES POSITION ----
+
+modules-left = rofi
+modules-center = bspwm
+modules-right = date sep powermenu
+
+; ---- OTHER ----
+
+;tray-position = right
+;tray-padding = 2
+;tray-background = #0063ff
+
+wm-restack = bspwm
+;wm-restack = i3
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+
+
+; ---------- MODULES -----------
+
+
+
+
+; ------ XWINDOW -------
+
+
+
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...%
+
+
+
+
+; ------ BSPWM ------
+
+
+
+
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = 
+label-focused-background = ${colors.background}
+label-focused-underline= ${colors.background}
+label-focused-padding = 2
+
+label-occupied = 
+label-occupied-padding = 2
+
+label-urgent = 
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+label-empty = 
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 2
+
+
+; Separator in between workspaces
+; label-separator = |
+
+
+
+
+; ------ DATE ------
+
+
+
+
+
+[module/date]
+type = internal/date
+interval = 5
+
+;date =
+;date-alt = " %Y-%m-%d"
+
+time = %I:%M %p
+;time-alt = %H:%M:%S
+
+format-prefix = 
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #1d2021
+
+label = %date% %time%
+
+
+
+
+; ------ PULSEAUDIO ------
+
+
+
+
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL %percentage%%
+label-volume-foreground = ${root.foreground}
+
+label-muted = 🔇 muted
+label-muted-foreground = #666
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+
+
+
+; ------ ALSA ------
+
+
+
+[module/alsa]
+type = internal/alsa
+
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL
+label-volume-foreground = ${root.foreground}
+
+format-muted-prefix = " "
+format-muted-foreground = ${colors.foreground-alt}
+label-muted = sound muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+
+
+; ------ POWERMENU ------
+
+
+
+[module/powermenu]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.foreground}
+;content-padding = 1
+;click-left = "$HOME/.local/bin/powermenu"
+content= ""
+
+
+
+
+
+; ------ ROFI ------
+
+
+
+
+[module/rofi]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.foreground}
+;content-padding = 1
+click-left = "rofi -show drun"
+content= ""
+
+
+
+
+
+; ------ SEP ------
+
+
+
+
+
+[module/sep]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.foreground}
+;content-padding = 1
+content= "|"
+
+
+
+
+; -------- THE REST OF THE CONFIG --------
+
+
+
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = false
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+; vim:ft=dosini
