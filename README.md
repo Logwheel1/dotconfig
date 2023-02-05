@@ -15,6 +15,7 @@
 <p>12. nitrogen</p>
 <p>13. lxappearance</p>
 <p>14. firefox</p>
+<p>cmatrix</p>
 <p>Command for debian:</p>
-<p>sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit thunar rofi flameshot neofetch nitrogen lxappearance firefox-esr</p>
+<p>sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit thunar rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix</p>
 
