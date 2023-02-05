@@ -1,6 +1,4 @@
-<h1>My .config Files</h1>
-
-<p>put files in "~/.config"</p>
+<h1>My .config Files, Still a work in progress.</h1>
 
 <p>Apps that I usually use</p>
 <p>1. mangohud</p>
@@ -15,6 +13,8 @@
 <p>10. flameshot</p>
 <p>11. neofetch</p>
 <p>12. nitrogen</p>
-<p>Command for debian based distros:</p>
-<p>sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit thunar rofi flameshot neofetch nitrogen</p>
+<p>13. lxappearance</p>
+<p>14. firefox</p>
+<p>Command for debian:</p>
+<p>sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit thunar rofi flameshot neofetch nitrogen lxappearance firefox-esr</p>
 
