@@ -14,6 +14,7 @@
 <p>9. rofi</p>
 <p>10. flameshot</p>
 <p>11. neofetch</p>
+<p>12. nitrogen</p>
 <p>Command for debian based distros:</p>
-<p>sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit thunar rofi flameshot neofetch</p>
+<p>sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit thunar rofi flameshot neofetch nitrogen</p>
 
