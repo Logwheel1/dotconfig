@@ -7,7 +7,7 @@
 
 <p>Caskaydia Cove Nerd Font</p>
 <p>Symbols Nerd Font</p>
-<p>ProFont Nerd Font</p>
+<p>ProFont Nerd Font (for terminal)</p>
 <p>Linux Libertine</p>
 
 <h4>Other Dependancies:</h4>
