@@ -27,6 +27,6 @@
 
 <hr>
 
-<h4>Command for debian:</h4>
+<h4>Command for Debian:</h4>
 <p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice" (vscode not included in this command)</p>
 
