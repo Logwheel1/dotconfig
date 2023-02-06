@@ -17,8 +17,7 @@
 <hr>
 
 <h4> Images </h4>
-<img src="https://github.com/Logwheel1/dotconfig/Images/SampleImage.png"
-<img src="https://github.com/Logwheel1/dotconfig/Images/SampleImage2.png"
+![H](https://github.com/Logwheel1/dotconfig/Images/SampleImage.png)
 
 <hr>
 
