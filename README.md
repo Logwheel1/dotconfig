@@ -3,6 +3,8 @@
 <h3>Fonts And Dependancies</h3>
 <h4>Fonts:</h4>
 <p>Caskaydia Cove Nerd Font</p>
+<p>Symbols Nerd Font</p>
+<p>ProFont Nerd Font</p>
 <p>Linux Libertine</p>
 <h4>Other Dependancies:</h4>
 <p>bspwm</p>
