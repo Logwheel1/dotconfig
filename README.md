@@ -17,6 +17,7 @@
 <p>rofi (not themed yet.)</p>
 <p>kitty (you can use any terminal emulator but sxhkd is configured to work with kitty.)</p>
 <p>nautilus (you can use any file manager but sxhkd is again configured to work with nautilus)</p>
+<p>lxappearance (optional)</p>
 
 <hr>
 
