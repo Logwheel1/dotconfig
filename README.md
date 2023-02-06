@@ -21,7 +21,6 @@
 <p>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</p>
 <p>Gruvbox gtk theme that I use https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme</p>
 <p>Power menu doesn't work yet.</p>
-<p>No custom rofi configs yet</p>
 
 <hr>
 
