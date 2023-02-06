@@ -14,7 +14,7 @@
 <p>bspwm</p>
 <p>sxhkd</p>
 <p>polybar</p>
-<p>rofi</p>
+<p>rofi (not themed yet.)</p>
 <p>kitty (you can use any terminal emulator but sxhkd is configured to work with kitty.)</p>
 
 <h4>Notes:</h4>
