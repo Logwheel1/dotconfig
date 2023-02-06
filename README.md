@@ -1,4 +1,4 @@
-<h1>My .config Files, Still a work in progress.</h1>
+<h1>My .config Files, Still a Work in Progress.</h1>
 
 <hr>
 
