@@ -1,10 +1,10 @@
 <h1>My .config Files, Still a work in progress.</h1>
 
-<br>
+<br/>
 
 <p>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</p>
 
-<br>
+<br/>
 
 <p>Apps that I usually use</p>
 <p>1. mangohud</p>
