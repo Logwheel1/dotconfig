@@ -16,6 +16,13 @@
 
 <hr>
 
+<h4> Images </h4>
+<img src="https://github.com/Logwheel1/dotconfig/Images/SampleImage.png"
+<img src="https://github.com/Logwheel1/dotconfig/Images/SampleImage2.png"
+
+<hr>
+
+
 <h4>Apps that I usually use:</h4>
 <p>mangohud (gaming overlay)</p>
 <p>polybar (status bar)</p>
