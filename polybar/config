@@ -31,18 +31,27 @@
 
 
 
-; ------ COLORS ------
+; ------ COLORS ------ ##colors
 
 
 
 
 [colors]
-;background = ${xrdb:color0:#222}
 background = #1d2021
-background-alt = #504945
-;foreground = ${xrdb:color7:#222}
+background-alt = #282828
 foreground = #fbf1c7
 foreground-alt = #fbf1c7
+red-alt = #fb4934
+red = #cc241d
+green = #b8bb26
+yellow = #fabd2f
+blue = #83a598
+purple = #d3869b
+aqua = #8ec07c
+
+
+
+; other colors
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -50,7 +59,7 @@ alert = #bd2c40
 
 
 
-; ------ BAR1 ------
+; ------ BAR1 ------ ##bar1
 
 
 
@@ -62,35 +71,37 @@ height = 40
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
 line-size = 3
-line-color = #f00
+line-color = #ffffff
 
 border-size = 0
-;border-color = #8ec07c
+border-color = ${colors.foreground}
 
-padding-left = 2
-padding-right = 2
+padding-left = 0
+padding-right = 0
 module-margin-left = 0
-module-margin-right = 2
+module-margin-center = 0
+module-margin-right = 0
 
-; ---- FONTS ----
+; ---- FONTS ---- ##fonts
 
 font-0 = CaskaydiaCove Nerd Font Mono:style=Regular
 font-1 = Linux Libertine O:style=Regular
-font-2 = Font Awesome 6 Free Regular:style=Regular
-font-3 = Font Awesome 6 Brands Regular:style=Regular
-font-4 = Font Awesome 6 Free Solid:style=Solid
+font-2 = Symbols Nerd Font:style=2048-em:size=12;1
+font-3 = Symbols Nerd Font Mono:style=1000-em:size=40;7
 
-; ---- MODULES POSITION ----
 
-modules-left = rofi
-modules-center = bspwm
-modules-right = date sep powermenu
+
+; ---- MODULES POSITION ---- ##modpos
+
+modules-left = rofi xwindow rightp
+modules-center = left bspwm right
+modules-right = leftb date powermenu
 
 ; ---- OTHER ----
 
@@ -114,24 +125,25 @@ cursor-scroll = ns-resize
 
 
 
-; ---------- MODULES -----------
+; ---------- MODULES ----------- ##mods
 
 
 
 
-; ------ XWINDOW -------
+; ------ XWINDOW ------- ##xwindow
 
 
 
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = "%{T1}    %title:0:30:...%  "
+label-background = ${colors.purple}
+label-foreground = ${colors.foreground}
 
 
 
-
-; ------ BSPWM ------
+; ------ BSPWM ------ ##bspwm
 
 
 
@@ -140,19 +152,28 @@ label = %title:0:30:...%
 type = internal/bspwm
 
 label-focused = 
-label-focused-background = ${colors.background}
-label-focused-underline= ${colors.background}
+label-focused-background = ${colors.aqua}
+;label-focused-underline = ${colors.background}
+;label-focused-overline = ${colors.background}
 label-focused-padding = 2
 
 label-occupied = 
+label-occupied-background = ${colors.aqua}
+;label-occupied-overline = ${colors.background}
+;label-occupied-underline = ${colors.background}
 label-occupied-padding = 2
 
 label-urgent = 
-label-urgent-background = ${colors.alert}
+label-urgent-background = ${colors.aqua}
+;label-urgent-overline = ${colors.background}
+;label-urgent-underline = ${colors.background}
 label-urgent-padding = 2
 
 label-empty = 
-label-empty-foreground = ${colors.foreground-alt}
+label-empty-background = ${colors.aqua}
+label-empty-foreground = ${colors.foreground}
+;label-empty-overline = ${colors.background}
+;label-empty-underline = ${colors.background}
 label-empty-padding = 2
 
 
@@ -162,7 +183,7 @@ label-empty-padding = 2
 
 
 
-; ------ DATE ------
+; ------ DATE ------ ##date
 
 
 
@@ -175,19 +196,22 @@ interval = 5
 ;date =
 ;date-alt = " %Y-%m-%d"
 
-time = %I:%M %p
+time = " %I:%M %p "
 ;time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #1d2021
+format-underline = ${colors.blue}
 
-label = %date% %time%
+label = "%{T1}%time%  "
+label-font = 1
+label-foreground = ${colors.foreground}
+label-background = ${colors.blue}
 
 
 
 
-; ------ PULSEAUDIO ------
+; ------ PULSEAUDIO ------ ##audio
 
 
 
@@ -223,7 +247,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 
 
-; ------ ALSA ------
+; ------ ALSA ------ ##alsa
 
 
 
@@ -257,40 +281,39 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 
 
-; ------ POWERMENU ------
+; ------ POWERMENU ------ ##power
+
+
 
 
 
 [module/powermenu]
 type = custom/text
-content-background = ${colors.background}
-content-foreground = ${colors.foreground}
-;content-padding = 1
-;click-left = "$HOME/.local/bin/powermenu"
-content= ""
+content-foregound = ${colors.foreground}
+content-background = ${colors.red}
+content = "%{T3} %{F#fbf1c7}     "
 
 
 
 
-
-; ------ ROFI ------
+; ------ ROFI ------ ##rofi
 
 
 
 
 [module/rofi]
 type = custom/text
-content-background = ${colors.background}
+content-background = ${colors.blue}
 content-foreground = ${colors.foreground}
-;content-padding = 1
+content-padding = 1
 click-left = "rofi -show drun"
-content= ""
+content= "%{T3}   "
 
 
 
 
 
-; ------ SEP ------
+; ------ SEP ------ ##sep
 
 
 
@@ -302,6 +325,50 @@ content-background = ${colors.background}
 content-foreground = ${colors.foreground}
 ;content-padding = 1
 content= "|"
+
+
+
+
+; ------ left ------ ##left
+[module/left]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.aqua}
+content-padding = 0
+content = "%{T4}"
+
+
+
+
+; ------ right ------ ##right
+[module/right]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.aqua}
+content-padding = 0
+content = "%{T4}"
+
+
+
+
+; ------ rightp ------ ##rightp
+[module/rightp]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.purple}
+content-padding = 0
+content = "%{T4}"
+
+
+
+
+; ------ left ------ ##leftb
+[module/leftb]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.blue}
+content-padding = 0
+content = "%{T4}"
 
 
 
