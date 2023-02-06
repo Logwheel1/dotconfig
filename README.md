@@ -1,10 +1,10 @@
 <h1>My .config Files, Still a Work in Progress.</h1>
 
-<h4>Fonts And Dependancies</h4>
-<h5>Fonts:</h5>
+<h3>Fonts And Dependancies</h3>
+<h4>Fonts:</h4>
 <p>Caskaydia Cove Nerd Font</p>
 <p>Linux Libertine</p>
-<h5>Other Dependancies:/h5>
+<h4>Other Dependancies:</h4>
 <p>bspwm</p>
 <p>sxhkd</p>
 <p>polybar</p>
