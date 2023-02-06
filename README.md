@@ -11,7 +11,7 @@
 <p>rofi</p>
 <p>kitty</p>
 <h4>Notes:</h4>
-<h5>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</h5>
+<p>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</p>
 
 
 <hr>
