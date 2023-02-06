@@ -17,25 +17,25 @@
 <hr>
 
 <h4>Apps that I usually use</h4>
-<p>1. mangohud (gaming overlay)</p>
-<p>2. polybar (status bar)</p>
-<p>3. bspwm (window manager)</p>
-<p>4. sxhkd (hotkey deamon)</p>
-<p>5. kitty (terminal emulator)</p>
-<p>6. mirage (image viewer)</p>
-<p>7. gedit (text editor)</p>
-<p>8. nautilus (file manager)</p>
-<p>9. rofi (app launcher)</p>
-<p>10. flameshot (screenshots)</p>
-<p>11. neofetch (system info)</p>
-<p>12. nitrogen (wallpapers)</p>
-<p>13. lxappearance (themes&icons)</p>
-<p>14. firefox (web browser)</p>
-<p>15. cmatrix (looks cool)</p>
-<p>16. libre office (office suite)</p>
-<p>17. vscode (ide)</p>
-<p>18. gimp (photoshop but opensource/free)</p>
-<p>19. steam (game platform)</p>
+<p>mangohud (gaming overlay)</p>
+<p>polybar (status bar)</p>
+<p>bspwm (window manager)</p>
+<p>sxhkd (hotkey deamon)</p>
+<p>kitty (terminal emulator)</p>
+<p>mirage (image viewer)</p>
+<p>gedit (text editor)</p>
+<p>nautilus (file manager)</p>
+<p>rofi (app launcher)</p>
+<p>flameshot (screenshots)</p>
+<p>neofetch (system info)</p>
+<p>nitrogen (wallpapers)</p>
+<p>lxappearance (themes&icons)</p>
+<p>firefox (web browser)</p>
+<p>cmatrix (looks cool)</p>
+<p>libre office (office suite)</p>
+<p>vscode (ide)</p>
+<p>gimp (photoshop but opensource/free)</p>
+<p>steam (game platform)</p>
 
 <hr>
 
