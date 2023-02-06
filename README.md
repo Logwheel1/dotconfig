@@ -16,7 +16,7 @@
 
 <hr>
 
-<h4>Apps that I usually use</h4>
+<h4>Apps that I usually use:</h4>
 <p>mangohud (gaming overlay)</p>
 <p>polybar (status bar)</p>
 <p>bspwm (window manager)</p>
@@ -37,7 +37,6 @@
 <p>gimp (photoshop but opensource/free)</p>
 <p>steam (game platform)</p>
 
-<hr>
 
 <h4>Command for Debian:</h4>
 <p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice gimp" (vscode not included in this command because it requires extra steps to istall)</p>
