@@ -9,7 +9,7 @@
 <p>sxhkd</p>
 <p>polybar</p>
 <p>rofi</p>
-<p>kitty</p>
+<p>kitty(you can use any terminal emulator but sxhkd is configured to work with kitty.)</p>
 <h4>Notes:</h4>
 <p>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</p>
 
