@@ -6,7 +6,7 @@
 
 <hr>
 
-<p>Apps that I usually use</p>
+<h5>Apps that I usually use</h5>
 <p>1. mangohud</p>
 <p>2. polybar</p>
 <p>3. bspwm</p>
@@ -27,7 +27,7 @@
 
 <hr>
 
-<p>Command for debian:</p>
+<h5>Command for debian:</h5>
 <p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice"</p>
 <p>(vscode not included in this command)</p>
 
