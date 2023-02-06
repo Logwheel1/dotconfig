@@ -1,5 +1,11 @@
 <h1>My .config Files, Still a work in progress.</h1>
 
+<br>
+
+<p>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</p>
+
+<br>
+
 <p>Apps that I usually use</p>
 <p>1. mangohud</p>
 <p>2. polybar</p>
@@ -8,7 +14,7 @@
 <p>5. kitty</p>
 <p>6. mirage</p>
 <p>7. gedit</p>
-<p>8. thunar</p>
+<p>8. nautilus</p>
 <p>9. rofi</p>
 <p>10. flameshot</p>
 <p>11. neofetch</p>
@@ -19,6 +25,6 @@
 <p>16. libre office</p>
 <p>17. vscode</p>
 <p>Command for debian:</p>
-<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit thunar rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice"</p>
+<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice"</p>
 <p>(vscode not included in this command)</p>
 
