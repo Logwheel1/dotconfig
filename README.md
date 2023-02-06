@@ -2,11 +2,11 @@
 
 <hr>
 
-<p>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</p>
+<h5>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</h5>
 
 <hr>
 
-<h5>Apps that I usually use</h5>
+<h4>Apps that I usually use</h4>
 <p>1. mangohud</p>
 <p>2. polybar</p>
 <p>3. bspwm</p>
@@ -28,6 +28,5 @@
 <hr>
 
 <h4>Command for debian:</h4>
-<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice"</p>
-<p>(vscode not included in this command)</p>
+<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice" (vscode not included in this command)</p>
 
