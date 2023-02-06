@@ -24,9 +24,10 @@
 <p>15. cmatrix</p>
 <p>16. libre office</p>
 <p>17. vscode</p>
+<p>18. gimp</p>
 
 <hr>
 
 <h4>Command for Debian:</h4>
-<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice" (vscode not included in this command)</p>
+<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice gimp" (vscode not included in this command)</p>
 
