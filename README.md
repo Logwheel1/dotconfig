@@ -25,9 +25,10 @@
 <p>16. libre office (office suite)</p>
 <p>17. vscode (ide)</p>
 <p>18. gimp (photoshop but opensource/free)</p>
+<p>19. steam (game platform)</p>
 
 <hr>
 
 <h4>Command for Debian:</h4>
-<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice gimp" (vscode not included in this command because it requires extra steps)</p>
+<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice gimp" (vscode not included in this command because it requires extra steps to istall)</p>
 
