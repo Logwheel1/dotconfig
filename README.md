@@ -7,27 +7,27 @@
 <hr>
 
 <h4>Apps that I usually use</h4>
-<p>1. mangohud</p>
-<p>2. polybar</p>
-<p>3. bspwm</p>
-<p>4. sxhkd</p>
-<p>5. kitty</p>
-<p>6. mirage</p>
-<p>7. gedit</p>
-<p>8. nautilus</p>
-<p>9. rofi</p>
-<p>10. flameshot</p>
-<p>11. neofetch</p>
-<p>12. nitrogen</p>
-<p>13. lxappearance</p>
-<p>14. firefox</p>
-<p>15. cmatrix</p>
-<p>16. libre office</p>
-<p>17. vscode</p>
-<p>18. gimp</p>
+<p>1. mangohud (gaming overlay)</p>
+<p>2. polybar (status bar)</p>
+<p>3. bspwm (window manager)</p>
+<p>4. sxhkd (hotkey deamon)</p>
+<p>5. kitty (terminal emulator)</p>
+<p>6. mirage (image viewer)</p>
+<p>7. gedit (text editor)</p>
+<p>8. nautilus (file manager)</p>
+<p>9. rofi (app launcher)</p>
+<p>10. flameshot (screenshots)</p>
+<p>11. neofetch (system info)</p>
+<p>12. nitrogen (wallpapers)</p>
+<p>13. lxappearance (themes&icons)</p>
+<p>14. firefox (web browser)</p>
+<p>15. cmatrix (looks cool)</p>
+<p>16. libre office (office suite)</p>
+<p>17. vscode (ide)</p>
+<p>18. gimp (photoshop but opensource/free)</p>
 
 <hr>
 
 <h4>Command for Debian:</h4>
-<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice gimp" (vscode not included in this command)</p>
+<p>"sudo apt install mangohud polybar bspwm sxhkd kitty mirage gedit nautilus rofi flameshot neofetch nitrogen lxappearance firefox-esr cmatrix libreoffice gimp" (vscode not included in this command because it requires extra steps)</p>
 
