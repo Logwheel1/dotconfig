@@ -18,6 +18,8 @@
 <p>kitty (you can use any terminal emulator but sxhkd is configured to work with kitty.)</p>
 <p>nautilus (you can use any file manager but sxhkd is again configured to work with nautilus)</p>
 
+<hr>
+
 <h4>Notes:</h4>
 <p>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</p>
 <p>Gruvbox gtk theme that I use https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme</p>
