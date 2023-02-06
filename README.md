@@ -1,8 +1,21 @@
 <h1>My .config Files, Still a Work in Progress.</h1>
 
+<h4>Fonts And Dependancies</h4>
+<h5>Fonts:</h5>
+<p>Caskaydia Cove Nerd Font</p>
+<p>Linux Libertine</p>
+<h5>Other Dependancies:/h5>
+<p>bspwm</p>
+<p>sxhkd</p>
+<p>polybar</p>
+<p>rofi</p>
+<p>kitty</p>
+
+
 <hr>
 
 <h5>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</h5>
+
 
 <hr>
 
