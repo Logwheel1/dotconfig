@@ -137,7 +137,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = "%{T1}    %title:0:30:...%  "
+label = "%{T4}%{F#83a598}%{T1}%{F#fbf1c7}   %title:0:30:...%   "
 label-background = ${colors.purple}
 label-foreground = ${colors.foreground}
 
@@ -201,9 +201,9 @@ time = " %I:%M %p "
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${colors.blue}
+;format-underline = ${colors.blue}
 
-label = "%{T1}%time%  "
+label = "%{T1}%time% %{T4}%{F#cc241d}"
 label-font = 1
 label-foreground = ${colors.foreground}
 label-background = ${colors.blue}
@@ -291,7 +291,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 type = custom/text
 content-foregound = ${colors.foreground}
 content-background = ${colors.red}
-content = "%{T3} %{F#fbf1c7}     "
+content = "%{T3} %{F#fbf1c7}     "
 click-left = "$HOME/.config/rofi/scripts/powermenu"
 
 
@@ -308,7 +308,7 @@ content-background = ${colors.blue}
 content-foreground = ${colors.foreground}
 content-padding = 1
 click-left = "rofi -show drun"
-content= "%{T3}   "
+content= "%{T3}     "
 
 
 
@@ -363,6 +363,17 @@ content = "%{T4}"
 
 
 
+; ------ rightb ------ ##rightb
+[module/rightb]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.blue}
+content-padding = 0
+content = "%{T4}"
+
+
+
+
 ; ------ left ------ ##leftb
 [module/leftb]
 type = custom/text
@@ -370,6 +381,7 @@ content-background = ${colors.background}
 content-foreground = ${colors.blue}
 content-padding = 0
 content = "%{T4}"
+
 
 
 
