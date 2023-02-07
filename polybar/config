@@ -292,6 +292,7 @@ type = custom/text
 content-foregound = ${colors.foreground}
 content-background = ${colors.red}
 content = "%{T3} %{F#fbf1c7}     "
+click-left = "$HOME/.config/rofi/scripts/powermenu"
 
 
 
