@@ -1,14 +1,22 @@
-/**
- * rofi -dump-theme output.
- * Rofi version: 1.5.4
- **/
+
+
+// Rofi Theme, by: Logwheel
+
+
+
+// ------ Colors ------
+
+
 * {
 bg: #1d2021;
 fg: #fbf1c7;
 bgalt: #282828;
-aqua: #8ec07c;
+aqua-r: #8ec07c;
+aqua: #fbf1c7;
 black: #000000;
-
+red: #fb4934;
+blue: #83a598;
+purple: #d3869b;
 
 }
 
@@ -19,7 +27,9 @@ window {
     background-color: @bg;
     border:           2px;
     border-color:     @aqua;
+    border-radius:    6px;
     width:	      30%;
+    height:           40%;
 }
 
 // ------ Mainbox & Textbox ------
@@ -27,7 +37,7 @@ window {
 mainbox {
     padding: 25px;
     border:  0px;
-    border-color: @fg;
+    border-color: @bg;
     background-color: @bg;
 }
 
@@ -39,25 +49,31 @@ textbox {
 
 listview {
     padding:      10px;
+    border-radius: 0px 0px 15px 15px;
+    border-color: @aqua;
+    border: 0px 2px 2px 2px;
     scrollbar:    false;
     spacing:      10px ;
-    lines: 5;
-    columns: 2;
+    lines: 10;
+    columns: 1;
     background-color: @bg;
 }
 
 // ------ Elements ------
 
 element {
-    padding: 1px ;
-    border:  0;
+    padding: 5px ;
+    border:  2px;
+    border-color: @bg;
+    border-radius: 6px;
     background-color: @bg;
     text-color: @fg;
 }
 
 
 element selected {
-    background-color: @bgalt;   
+    background-color: @fg;
+    text-color: @black;   
 }
 
 // ------ Mode Switcher ------
@@ -87,6 +103,7 @@ inputbar {
     text-color: @fg;
     border:     2px;
     border-color: @aqua;
+    border-radius: 6px;
     children:   [entry];
 }
 
