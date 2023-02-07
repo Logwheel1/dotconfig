@@ -26,7 +26,7 @@
 <p>Uses the Gruvbox color scheme, https://github.com/morhetz/gruvbox</p>
 <p>Gruvbox gtk theme that I use https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme</p>
 <p>Wallpaper in "Images" folder.</p>
-<p>Power button doesn't work yet.</p>
+<p>Systemd is used for the powermenu script.</p>
 <p>No compositor configured yet.</p>
 
 <hr>
