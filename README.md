@@ -32,5 +32,5 @@
 <hr>
 
 <h3> Screenshots </h3>
-<img src="https://github.com/Logwheel1/dotconfig/blob/main/Images/SampleImage.png">
-<img src="https://github.com/Logwheel1/dotconfig/blob/main/Images/SampleImage2.png">
+<img src="https://github.com/Logwheel1/dotconfig/blob/main/Images/Sample.png">
+<img src="https://github.com/Logwheel1/dotconfig/blob/main/Images/Sample2.png">
