@@ -3,7 +3,7 @@
 chosen=$(printf "  Power Off\n  Restart\n" | rofi -dmenu -i -theme-str '@import "power.rasi"')
 
 case "$chosen" in
-	"  Power Off") poweroff ;;
-	"  Restart") reboot ;;
+	"  Power Off") systemctl poweroff ;;
+	"  Restart") systemctl reboot ;;
 	*) exit 1 ;;
 esac
