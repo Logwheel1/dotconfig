@@ -29,7 +29,7 @@ window {
     border-color:     @aqua;
     border-radius:    6px;
     width:	      30%;
-    height:           40%;
+    height:           35%;
 }
 
 // ------ Mainbox & Textbox ------
@@ -49,9 +49,9 @@ textbox {
 
 listview {
     padding:      10px;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px;
     border-color: @aqua;
-    border: 0px 2px 2px 2px;
+    border: 0px;
     scrollbar:    false;
     spacing:      10px ;
     lines: 10;
