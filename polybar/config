@@ -90,7 +90,7 @@ module-margin-right = 0
 
 ; ---- FONTS ---- ##fonts
 
-font-0 = CaskaydiaCove Nerd Font Mono:style=Regular
+font-0 = CaskaydiaCove Nerd Font Mono:style=Regular;1
 font-1 = Linux Libertine O:style=Regular
 font-2 = Symbols Nerd Font:style=2048-em:size=12;1
 font-3 = Symbols Nerd Font Mono:style=1000-em:size=40;7
@@ -137,9 +137,15 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = "%{T4}%{F#83a598}%{T1}%{F#fbf1c7}   %title:0:30:...%   "
+
+format-padding = 0
+
+
+label = "%{T4}%{F#83a598}%{T1}%{F#fbf1c7}    %title%    "
+label-maxlen = 70
 label-background = ${colors.purple}
 label-foreground = ${colors.foreground}
+label-empty = "%{T4}%{B#d3869b}%{F#83a598}%{T1}%{F#fbf1c7}   No Window    "
 
 
 
@@ -203,7 +209,7 @@ format-prefix =
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = ${colors.blue}
 
-label = "%{T1}%time% %{T4}%{F#cc241d}"
+label = "%{T3} %{T1}%time% %{T4}%{F#cc241d}"
 label-font = 1
 label-foreground = ${colors.foreground}
 label-background = ${colors.blue}
