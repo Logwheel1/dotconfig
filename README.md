@@ -5,20 +5,20 @@
 
 <h4>Fonts:</h4>
 
-<p>Caskaydia Cove Nerd Font</p>
-<p>Symbols Nerd Font</p>
-<p>ProFont Nerd Font (for terminal)</p>
-<p>Linux Libertine</p>
+<p>• Caskaydia Cove Nerd Font</p>
+<p>• Symbols Nerd Font</p>
+<p>• ProFont Nerd Font (for terminal)</p>
+<p>• Linux Libertine</p>
 
 <h4>Other Dependancies:</h4>
-<p>bspwm</p>
-<p>sxhkd</p>
-<p>polybar</p>
-<p>rofi</p>
-<p>kitty (you can use any terminal emulator but sxhkd is configured to work with kitty.)</p>
-<p>nautilus (you can use any file manager but sxhkd is again configured to work with nautilus)</p>
-<p>lxappearance (optional)</p>
-<p>papirus icon theme</p>
+<p>• bspwm</p>
+<p>• sxhkd</p>
+<p>• polybar</p>
+<p>• rofi</p>
+<p>• kitty (you can use any terminal emulator but sxhkd is configured to work with kitty.)</p>
+<p>• nautilus (you can use any file manager but sxhkd is again configured to work with nautilus)</p>
+<p>• lxappearance</p>
+<p>• papirus icon theme (you can use any icon theme but rofi is configured to work with papirus.)</p>
 
 <hr>
 
@@ -31,6 +31,6 @@
 
 <hr>
 
-<h3> Images </h3>
+<h3> Screenshots </h3>
 <img src="https://github.com/Logwheel1/dotconfig/blob/main/Images/SampleImage.png">
 <img src="https://github.com/Logwheel1/dotconfig/blob/main/Images/SampleImage2.png">
