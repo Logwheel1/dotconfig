@@ -28,7 +28,7 @@
 <p>Wallpaper in "Images" folder.</p>
 <p>Systemd is used for the powermenu script.</p>
 <p>No compositor configured yet.</p>
-<p>Remember to make launch.sh (polybar), bspwmrc, and .xinitrc executable (chmod +x "file")</p>
+<p>Remember to make launch.sh (polybar), bspwmrc, .xinitrc, and powermenu (rofi script) executable (chmod +x "file")</p>
 
 <hr>
 
