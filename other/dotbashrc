@@ -1,0 +1,23 @@
+# run when enter terminal
+
+neofetch
+
+# look of terminal thing ps1
+PS1=' \W $ '
+
+
+# aliases
+
+# bspwm config
+alias bs='vim ~/.config/bspwm/bspwmrc'
+
+# sxhkd config
+alias sx='vim ~/.config/sxhkd/sxhkdrc'
+
+# polybar aliases
+alias pbarc='vim ~/.config/polybar/config'
+alias pbark='killall polybar'
+alias pbar='$HOME/.config/polybar/launch.sh'
+
+
+
