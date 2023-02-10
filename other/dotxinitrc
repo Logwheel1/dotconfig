@@ -1,0 +1,10 @@
+pgrep -x sxhkd > /dev/null || sxhkd &
+nitrogen --restore &
+$HOME/.config/polybar/launch.sh
+
+
+
+
+
+
+exec bspwm -c $HOME/.config/bspwm/bspwmrc
